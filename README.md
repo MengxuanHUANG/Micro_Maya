@@ -2,16 +2,16 @@
 This is an individual assignment in CIS5600 at the University of Pennsylvania. In this project, I applied half-edge model for mesh loading and efficiently mesh editing. Besides, the application supports to load skeleton as well as automatically skinning.
 
 ## Featues Demonstration
-* [Camera Operation](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#polar-spherical-camera-operation)
-* [Component Selection](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#selection)
-* [Split Edge](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#split-edge)
-* [Insert EdgeLoop](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#insert-edgeloop)
-* [Triangulate Face](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#triangulate-face)
-* [Extrude Face](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#extrude-face)
-* [Bevel](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#bevel)
-* [Mesh Subdivision](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#mesh-subdivision)
-* [Auto Skinning](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#auto-skinning)
-* [Mannually Adujst Joints' Weight](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#mannually-adujst-joints-weight)
+* [Camera Operation](https://github.com/MengxuanHUANG/Micro_Maya#polar-spherical-camera-operation)
+* [Component Selection](https://github.com/MengxuanHUANG/Micro_Maya#selection)
+* [Split Edge](https://github.com/MengxuanHUANG/Micro_Maya#split-edge)
+* [Insert EdgeLoop](https://github.com/MengxuanHUANG/Micro_Maya#insert-edgeloop)
+* [Triangulate Face](https://github.com/MengxuanHUANG/Micro_Maya#triangulate-face)
+* [Extrude Face](https://github.com/MengxuanHUANG/Micro_Maya#extrude-face)
+* [Bevel](https://github.com/MengxuanHUANG/Micro_Maya#bevel)
+* [Mesh Subdivision](https://github.com/MengxuanHUANG/Micro_Maya#mesh-subdivision)
+* [Auto Skinning](https://github.com/MengxuanHUANG/Micro_Maya#auto-skinning)
+* [Mannually Adujst Joints' Weight](https://github.com/MengxuanHUANG/Micro_Maya#mannually-adujst-joints-weight)
 
 ### Mesh Loading & Mesh editing
 #### Polar Spherical Camera Operation  
