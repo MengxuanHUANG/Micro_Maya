@@ -1,0 +1,8 @@
+1. https://pbr-book.org/3ed-2018/Shapes/Cylinders 2022.10.12
+ray-cylinder intersection test
+
+2. https://doc.qt.io/qt-6.2/qtabwidget.html 2022.10.31
+how to use tabWidget
+
+3. https://doc.qt.io/qt-6.2/qcombobox.html
+how to use ComboBox
