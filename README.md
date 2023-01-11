@@ -62,11 +62,11 @@ Select a face or multiply faces and press `Extrude Face` button.
 ![image](https://user-images.githubusercontent.com/53021701/211703712-c3957edc-151b-4f95-9947-9011593f2762.png)
 
 #### Bevel  
-Select faces and press the "Bevel" button. 
-Default configuration:
-segment: 4
-width: 0.5
-depth: 1.0
+Select faces and press the `Bevel` button.  
+Default configuration:  
+segment: 4  
+width: 0.5  
+depth: 1.0  
 ![image](https://user-images.githubusercontent.com/53021701/211703841-3faba856-9110-4048-b9eb-ed2078d1e254.png)
 ![image](https://user-images.githubusercontent.com/53021701/211703864-693abc08-852e-4a6c-92bd-db49db282e51.png)
 
@@ -75,18 +75,18 @@ Press `Subdivision` button to subdivide mesh once
 ![image](https://user-images.githubusercontent.com/53021701/211704086-8d2edefb-2c6f-41c7-b093-8d8e07ddb50a.png)
 1<sup>st</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704121-d1ac2783-49dc-4efe-9148-41628af56d06.png)
-2<sup>nd</sup>
+2<sup>nd</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704325-3117b157-2b9a-4be7-b693-0f0949d0f56e.png)
-3<sup>rd</sup>
+3<sup>rd</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704359-480b2e26-8b46-4730-a6df-1debb967308f.png)
 
 Before subdivision, `Vertex`, `Edge`, `Face` can be marked as `Sharp`
 ![image](https://user-images.githubusercontent.com/53021701/211704665-e96dd3be-10d0-41d6-8b5f-28bfd48ddf54.png)
 1<sup>st</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704734-ae078e32-71fb-4a98-86b3-6eedca98a382.png)
-2<sup>nd</sup>
+2<sup>nd</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704826-68f4a384-b3a8-41aa-bdd3-2280cfe7bec6.png)
-3<sup>rd</sup>
+3<sup>rd</sup> Subdivision
 ![image](https://user-images.githubusercontent.com/53021701/211704961-6a3d3b6a-f589-4a42-9f41-f0d9790404b2.png)
 
 ### Skeleton & Skinning  
