@@ -2,8 +2,19 @@
 This is an individual assignment in CIS5600 at the University of Pennsylvania. In this project, I applied half-edge model for mesh loading and efficiently mesh editing. Besides, the application supports to load skeleton as well as automatically skinning.
 
 ## Featues Demonstration
+* [Camera Operation](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#polar-spherical-camera-operation)
+* [Component Selection](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#selection)
+* [Split Edge](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#split-edge)
+* [Insert EdgeLoop](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#insert-edgeloop)
+* [Triangulate Face](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#triangulate-face)
+* [Extrude Face](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#extrude-face)
+* [Bevel](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#bevel)
+* [Mesh Subdivision](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#mesh-subdivision)
+* [Auto Skinning](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#auto-skinning)
+* [Mannually Adujst Joints' Weight](https://github.com/MengxuanHUANG/Micro_Maya/edit/main/README.md#mannually-adujst-joints-weight)
+
 ### Mesh Loading & Mesh editing
-* Polar Spherical Camera Operation  
+#### Polar Spherical Camera Operation  
 `Arrow UP/DOWN/LEFT/RIGHT` moves along the surface of a sphere  
 `W` zoom in  
 `S` zoom out  
@@ -13,7 +24,7 @@ This is an individual assignment in CIS5600 at the University of Pennsylvania. I
 `E` pan down reference point  
 `R` reset camera position and orientation  
 
-* Mouse press selection
+#### Selection
 1. Click `Vertex`, `Edge`, `Face` to select different items. Besides, it also supports to press `shift` for multi-selection and deselection.
 
 ![image](https://user-images.githubusercontent.com/53021701/211701569-7e5ceb72-a0bf-40c2-8936-a7d1bb06f3ba.png)
@@ -30,27 +41,27 @@ Press `Shift` and double click `Mouse Left Button` to select edge loop
 Use `Shift` and `Alt` for multi-selection and deselection.
 ![image](https://user-images.githubusercontent.com/53021701/211701833-021c11f2-3088-492e-9b83-34c86641d061.png)
 
-* Split Edge    
+#### Split Edge    
 Select an edge or multiply edges and press `Add Vertex` button to split edges.
 ![image](https://user-images.githubusercontent.com/53021701/211702867-ff128ebe-6c04-4f38-bf99-cb84330a1588.png)
 ![image](https://user-images.githubusercontent.com/53021701/211702903-6297ddf2-167c-4fbf-a520-56125659f553.png)
 
-* Insert EdgeLoop  
+#### Insert EdgeLoop  
 Select a parallel edges-loop, then, press the `Insert EdgeLoop` button to insert an edge loop.
 ![image](https://user-images.githubusercontent.com/53021701/211703125-93f1ea18-6a7c-40ca-a450-846701e378f6.png)
 ![image](https://user-images.githubusercontent.com/53021701/211703217-bfb97a69-ab92-45f3-866f-639e4f0db776.png)
 
-* Triangulate Face  
+#### Triangulate Face  
 Select a face or multiply faces and press `Triangulate Face` button.
 ![image](https://user-images.githubusercontent.com/53021701/211703464-ef162b91-c611-4a5d-ba7e-79e7cff6602a.png)
 ![image](https://user-images.githubusercontent.com/53021701/211703497-040526a8-6293-4154-900c-cb72f8615535.png)
 
-* Extrude Face  
+#### Extrude Face  
 Select a face or multiply faces and press `Extrude Face` button.
 ![image](https://user-images.githubusercontent.com/53021701/211703688-22411b04-828c-414f-ac30-0c75347a0afa.png)
 ![image](https://user-images.githubusercontent.com/53021701/211703712-c3957edc-151b-4f95-9947-9011593f2762.png)
 
-* Bevel  
+#### Bevel  
 Select faces and press the "Bevel" button. 
 Default configuration:
 segment: 4
@@ -59,7 +70,7 @@ depth: 1.0
 ![image](https://user-images.githubusercontent.com/53021701/211703841-3faba856-9110-4048-b9eb-ed2078d1e254.png)
 ![image](https://user-images.githubusercontent.com/53021701/211703864-693abc08-852e-4a6c-92bd-db49db282e51.png)
 
-* Mesh Subdivision  
+#### Mesh Subdivision  
 Press `Subdivision` button to subdivide mesh once
 ![image](https://user-images.githubusercontent.com/53021701/211704086-8d2edefb-2c6f-41c7-b093-8d8e07ddb50a.png)
 1<sup>st</sup> Subdivision
@@ -80,7 +91,7 @@ Before subdivision, `Vertex`, `Edge`, `Face` can be marked as `Sharp`
 
 ### Skeleton & Skinning  
 Firstly, load a mesh and a skeleton. 
-* Auto skinning  
+#### Auto skinning  
 Press the `Skinning` button to automatically make a skeleton mesh
 ![image](https://user-images.githubusercontent.com/53021701/211705453-1cb8535e-74b7-4db9-af47-484495b27726.png)
 ![image](https://user-images.githubusercontent.com/53021701/211705480-2177d2da-d8b6-4ca4-8aa5-921486d57f97.png)
@@ -88,6 +99,6 @@ Press the `Skinning` button to automatically make a skeleton mesh
 Use `Mouse Left Button` to select a joint and view its influence on the mesh
 ![image](https://user-images.githubusercontent.com/53021701/211705615-915e9c4c-749b-4a5b-b703-190ee93e60b4.png)
 
-* Mannually adujst joints' weight  
+#### Mannually adujst joints' weight  
 Select a vertex. Then, use the panel on the right to modify joints influence on the select vertex.
 ![image](https://user-images.githubusercontent.com/53021701/211705828-89db718a-2be0-41f3-8b1a-85aa2213ded6.png)
